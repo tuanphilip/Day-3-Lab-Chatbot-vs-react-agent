@@ -4,1273 +4,1485 @@
             "name": "Lý Duy Giang",
             "class": "10A1",
             "parent": "Lê Duy Long",
-            "parent_phone": "0990092379"
+            "parent_phone": "0990092379",
+            "email": "lyduygiang@school.edu.vn"
         },
         "S002": {
             "name": "Phan Đức Phong",
             "class": "10A1",
             "parent": "Lê Hữu Minh",
-            "parent_phone": "0936538687"
+            "parent_phone": "0936538687",
+            "email": "phanducphong@school.edu.vn"
         },
         "S003": {
             "name": "Phạm Xương Anh",
             "class": "10A1",
             "parent": "Vũ Phước Quân",
-            "parent_phone": "0923035573"
+            "parent_phone": "0923035573",
+            "email": "phamxuonganh@school.edu.vn"
         },
         "S004": {
             "name": "Phạm Hoàng An",
             "class": "10A1",
             "parent": "Hoàng Quốc Khải",
-            "parent_phone": "0954378750"
+            "parent_phone": "0954378750",
+            "email": "phamhoangan@school.edu.vn"
         },
         "S005": {
             "name": "Ngô Kim Trúc",
             "class": "10A1",
             "parent": "Lê Đức Hùng",
-            "parent_phone": "0999975113"
+            "parent_phone": "0999975113",
+            "email": "ngokimtruc@school.edu.vn"
         },
         "S006": {
             "name": "Huỳnh Mỹ Như",
             "class": "10A1",
             "parent": "Ngô Minh Bình",
-            "parent_phone": "0956930447"
+            "parent_phone": "0956930447",
+            "email": "huynhmynhu@school.edu.vn"
         },
         "S007": {
             "name": "Võ Ngọc Mai",
             "class": "10A1",
             "parent": "Đặng Khánh Nam",
-            "parent_phone": "0924868923"
+            "parent_phone": "0924868923",
+            "email": "vongocmai@school.edu.vn"
         },
         "S008": {
             "name": "Dương Thị Vy",
             "class": "10A1",
             "parent": "Nguyễn Khánh Nhân",
-            "parent_phone": "0938862811"
+            "parent_phone": "0938862811",
+            "email": "duongthivy@school.edu.vn"
         },
         "S009": {
             "name": "Ngô Thị Phương",
             "class": "10A1",
             "parent": "Hoàng Phước Phong",
-            "parent_phone": "0986654431"
+            "parent_phone": "0986654431",
+            "email": "ngothiphuong@school.edu.vn"
         },
         "S010": {
             "name": "Lý Quốc Quân",
             "class": "10A1",
             "parent": "Dương Phước Quân",
-            "parent_phone": "0927846045"
+            "parent_phone": "0927846045",
+            "email": "lyquocquan@school.edu.vn"
         },
         "S011": {
             "name": "Ngô Phương Ngọc",
             "class": "10A1",
             "parent": "Trần Khánh Huy",
-            "parent_phone": "0937661356"
+            "parent_phone": "0937661356",
+            "email": "ngophuongngoc@school.edu.vn"
         },
         "S012": {
             "name": "Hoàng Thuỷ Anh",
             "class": "10A1",
             "parent": "Huỳnh Phước Tùng",
-            "parent_phone": "0942891326"
+            "parent_phone": "0942891326",
+            "email": "hoangthuyanh@school.edu.vn"
         },
         "S013": {
             "name": "Nguyễn Hồng Mai",
             "class": "10A1",
             "parent": "Trần Gia Dũng",
-            "parent_phone": "0962809150"
+            "parent_phone": "0962809150",
+            "email": "nguyenhongmai@school.edu.vn"
         },
         "S014": {
             "name": "Ngô Hữu Dũng",
             "class": "10A1",
             "parent": "Đặng Phước Tuấn",
-            "parent_phone": "0920182635"
+            "parent_phone": "0920182635",
+            "email": "ngohuudung@school.edu.vn"
         },
         "S015": {
             "name": "Hoàng Kim Trang",
             "class": "10A1",
             "parent": "Võ Đức An",
-            "parent_phone": "0981313952"
+            "parent_phone": "0981313952",
+            "email": "hoangkimtrang@school.edu.vn"
         },
         "S016": {
             "name": "Võ Kim Vân",
             "class": "10A1",
             "parent": "Lý Thành Tiến",
-            "parent_phone": "0925746852"
+            "parent_phone": "0925746852",
+            "email": "vokimvan@school.edu.vn"
         },
         "S017": {
             "name": "Võ Thị Lan",
             "class": "10A1",
             "parent": "Trần Phước Tuấn",
-            "parent_phone": "0982793203"
+            "parent_phone": "0982793203",
+            "email": "vothilan@school.edu.vn"
         },
         "S018": {
             "name": "Võ Đức Huy",
             "class": "10A1",
             "parent": "Đặng Hữu Khải",
-            "parent_phone": "0918678953"
+            "parent_phone": "0918678953",
+            "email": "voduchuy@school.edu.vn"
         },
         "S019": {
             "name": "Lê Mai Vân",
             "class": "10A1",
             "parent": "Võ Đức Khoa",
-            "parent_phone": "0923530861"
+            "parent_phone": "0923530861",
+            "email": "lemaivan@school.edu.vn"
         },
         "S020": {
             "name": "Bùi Mai Trúc",
             "class": "10A1",
             "parent": "Dương Khánh Khải",
-            "parent_phone": "0954845455"
+            "parent_phone": "0954845455",
+            "email": "buimaitruc@school.edu.vn"
         },
         "S021": {
             "name": "Hoàng Diệu Hương",
             "class": "10A1",
             "parent": "Phan Hữu Tiến",
-            "parent_phone": "0946730122"
+            "parent_phone": "0946730122",
+            "email": "hoangdieuhuong@school.edu.vn"
         },
         "S022": {
             "name": "Ngô Gia Đạt",
             "class": "10A1",
             "parent": "Trần Quốc Quân",
-            "parent_phone": "0969999377"
+            "parent_phone": "0969999377",
+            "email": "ngogiadat@school.edu.vn"
         },
         "S023": {
             "name": "Ngô Quỳnh Trúc",
             "class": "10A1",
             "parent": "Phạm Duy Tuấn",
-            "parent_phone": "0921317792"
+            "parent_phone": "0921317792",
+            "email": "ngoquynhtruc@school.edu.vn"
         },
         "S024": {
             "name": "Võ Phương Linh",
             "class": "10A1",
             "parent": "Vũ Duy Long",
-            "parent_phone": "0927224016"
+            "parent_phone": "0927224016",
+            "email": "vophuonglinh@school.edu.vn"
         },
         "S025": {
             "name": "Vũ Đức Phong",
             "class": "10A1",
             "parent": "Lý Quốc Bảo",
-            "parent_phone": "0987307350"
+            "parent_phone": "0987307350",
+            "email": "vuducphong@school.edu.vn"
         },
         "S026": {
             "name": "Hoàng Quốc Hùng",
             "class": "10A1",
             "parent": "Hoàng Văn Quân",
-            "parent_phone": "0937672422"
+            "parent_phone": "0937672422",
+            "email": "hoangquochung@school.edu.vn"
         },
         "S027": {
             "name": "Đỗ Thị Yến",
             "class": "10A1",
             "parent": "Dương Anh Tùng",
-            "parent_phone": "0956133825"
+            "parent_phone": "0956133825",
+            "email": "dothiyen@school.edu.vn"
         },
         "S028": {
             "name": "Lý Phương Thảo",
             "class": "10A1",
             "parent": "Đặng Đức Phong",
-            "parent_phone": "0944783516"
+            "parent_phone": "0944783516",
+            "email": "lyphuongthao@school.edu.vn"
         },
         "S029": {
             "name": "Vũ Hữu Tiến",
             "class": "10A1",
             "parent": "Lê Văn An",
-            "parent_phone": "0986765735"
+            "parent_phone": "0986765735",
+            "email": "vuhuutien@school.edu.vn"
         },
         "S030": {
             "name": "Phạm Mai Vân",
             "class": "10A1",
             "parent": "Phạm Hữu Hùng",
-            "parent_phone": "0945928894"
+            "parent_phone": "0945928894",
+            "email": "phammaivan@school.edu.vn"
         },
         "S031": {
             "name": "Lý Gia Long",
             "class": "10A1",
             "parent": "Phạm Phước Dũng",
-            "parent_phone": "0962408151"
+            "parent_phone": "0962408151",
+            "email": "lygialong@school.edu.vn"
         },
         "S032": {
             "name": "Phạm Phương Phương",
             "class": "10A1",
             "parent": "Huỳnh Khánh Hải",
-            "parent_phone": "0978663609"
+            "parent_phone": "0978663609",
+            "email": "phamphuongphuong@school.edu.vn"
         },
         "S033": {
             "name": "Phạm Minh Quân",
             "class": "10A1",
             "parent": "Đặng Đức Giang",
-            "parent_phone": "0929357459"
+            "parent_phone": "0929357459",
+            "email": "phamminhquan@school.edu.vn"
         },
         "S034": {
             "name": "Phan Minh Trung",
             "class": "10A1",
             "parent": "Nguyễn Đức Cường",
-            "parent_phone": "0971255960"
+            "parent_phone": "0971255960",
+            "email": "phanminhtrung@school.edu.vn"
         },
         "S035": {
             "name": "Lý Duy Hải",
             "class": "10A1",
             "parent": "Lý Phước Dũng",
-            "parent_phone": "0918668603"
+            "parent_phone": "0918668603",
+            "email": "lyduyhai@school.edu.vn"
         },
         "S036": {
             "name": "Võ Gia Khải",
             "class": "10A1",
             "parent": "Huỳnh Khánh Giang",
-            "parent_phone": "0943570685"
+            "parent_phone": "0943570685",
+            "email": "vogiakhai@school.edu.vn"
         },
         "S037": {
             "name": "Ngô Thị Phương",
             "class": "10A1",
             "parent": "Phạm Hữu Đạt",
-            "parent_phone": "0968195407"
+            "parent_phone": "0968195407",
+            "email": "ngothiphuong@school.edu.vn"
         },
         "S038": {
             "name": "Huỳnh Quỳnh Dung",
             "class": "10A1",
             "parent": "Trần Phước Phúc",
-            "parent_phone": "0953024804"
+            "parent_phone": "0953024804",
+            "email": "huynhquynhdung@school.edu.vn"
         },
         "S039": {
             "name": "Phan Hữu Khải",
             "class": "10A1",
             "parent": "Ngô Phước Long",
-            "parent_phone": "0988776442"
+            "parent_phone": "0988776442",
+            "email": "phanhuukhai@school.edu.vn"
         },
         "S040": {
             "name": "Lý Minh Tiến",
             "class": "10A1",
             "parent": "Huỳnh Hoàng Bảo",
-            "parent_phone": "0980095051"
+            "parent_phone": "0980095051",
+            "email": "lyminhtien@school.edu.vn"
         },
         "S041": {
             "name": "Ngô Tuyết Yến",
             "class": "10A1",
             "parent": "Dương Hữu Phong",
-            "parent_phone": "0988996957"
+            "parent_phone": "0988996957",
+            "email": "ngotuyetyen@school.edu.vn"
         },
         "S042": {
             "name": "Phan Xương Vy",
             "class": "10A1",
             "parent": "Lý Duy Cường",
-            "parent_phone": "0944586433"
+            "parent_phone": "0944586433",
+            "email": "phanxuongvy@school.edu.vn"
         },
         "S043": {
             "name": "Nguyễn Phước Huy",
             "class": "10A2",
             "parent": "Ngô Anh Khải",
-            "parent_phone": "0928697172"
+            "parent_phone": "0928697172",
+            "email": "nguyenphuochuy@school.edu.vn"
         },
         "S044": {
             "name": "Phan Tuyết Trúc",
             "class": "10A2",
             "parent": "Vũ Hoàng Tùng",
-            "parent_phone": "0994204662"
+            "parent_phone": "0994204662",
+            "email": "phantuyettruc@school.edu.vn"
         },
         "S045": {
             "name": "Nguyễn Đức Giang",
             "class": "10A2",
             "parent": "Ngô Duy Trung",
-            "parent_phone": "0921762598"
+            "parent_phone": "0921762598",
+            "email": "nguyenducgiang@school.edu.vn"
         },
         "S046": {
             "name": "Đỗ Khánh Sơn",
             "class": "10A2",
             "parent": "Vũ Thành Quân",
-            "parent_phone": "0949290448"
+            "parent_phone": "0949290448",
+            "email": "dokhanhson@school.edu.vn"
         },
         "S047": {
             "name": "Ngô Ngọc Oanh",
             "class": "10A2",
             "parent": "Đặng Khánh Nhân",
-            "parent_phone": "0968121341"
+            "parent_phone": "0968121341",
+            "email": "ngongocoanh@school.edu.vn"
         },
         "S048": {
             "name": "Ngô Duy Phúc",
             "class": "10A2",
             "parent": "Bùi Duy Dũng",
-            "parent_phone": "0917157773"
+            "parent_phone": "0917157773",
+            "email": "ngoduyphuc@school.edu.vn"
         },
         "S049": {
             "name": "Phạm Phương Trang",
             "class": "10A2",
             "parent": "Vũ Đức Tiến",
-            "parent_phone": "0930418243"
+            "parent_phone": "0930418243",
+            "email": "phamphuongtrang@school.edu.vn"
         },
         "S050": {
             "name": "Dương Phương Trang",
             "class": "10A2",
             "parent": "Trần Đức Dũng",
-            "parent_phone": "0922935377"
+            "parent_phone": "0922935377",
+            "email": "duongphuongtrang@school.edu.vn"
         },
         "S051": {
             "name": "Dương Thuỷ Mai",
             "class": "10A2",
             "parent": "Trần Minh Sơn",
-            "parent_phone": "0922270802"
+            "parent_phone": "0922270802",
+            "email": "duongthuymai@school.edu.vn"
         },
         "S052": {
             "name": "Huỳnh Hồng Oanh",
             "class": "10A2",
             "parent": "Nguyễn Khánh Minh",
-            "parent_phone": "0980075286"
+            "parent_phone": "0980075286",
+            "email": "huynhhongoanh@school.edu.vn"
         },
         "S053": {
             "name": "Vũ Hoàng Tùng",
             "class": "10A2",
             "parent": "Dương Duy Hùng",
-            "parent_phone": "0988373436"
+            "parent_phone": "0988373436",
+            "email": "vuhoangtung@school.edu.vn"
         },
         "S054": {
             "name": "Dương Minh Bình",
             "class": "10A2",
             "parent": "Lê Minh Phong",
-            "parent_phone": "0949147471"
+            "parent_phone": "0949147471",
+            "email": "duongminhbinh@school.edu.vn"
         },
         "S055": {
             "name": "Phan Xương Trang",
             "class": "10A2",
             "parent": "Lê Hoàng Hùng",
-            "parent_phone": "0940679182"
+            "parent_phone": "0940679182",
+            "email": "phanxuongtrang@school.edu.vn"
         },
         "S056": {
             "name": "Vũ Diệu Thảo",
             "class": "10A2",
             "parent": "Lê Quốc Hùng",
-            "parent_phone": "0967904588"
+            "parent_phone": "0967904588",
+            "email": "vudieuthao@school.edu.vn"
         },
         "S057": {
             "name": "Dương Phương Trang",
             "class": "10A2",
             "parent": "Ngô Anh Giang",
-            "parent_phone": "0983024293"
+            "parent_phone": "0983024293",
+            "email": "duongphuongtrang@school.edu.vn"
         },
         "S058": {
             "name": "Bùi Xương Dung",
             "class": "10A2",
             "parent": "Vũ Anh Đạt",
-            "parent_phone": "0920832886"
+            "parent_phone": "0920832886",
+            "email": "buixuongdung@school.edu.vn"
         },
         "S059": {
             "name": "Bùi Gia Tùng",
             "class": "10A2",
             "parent": "Phạm Minh Phong",
-            "parent_phone": "0961756194"
+            "parent_phone": "0961756194",
+            "email": "buigiatung@school.edu.vn"
         },
         "S060": {
             "name": "Dương Quỳnh Cát",
             "class": "10A2",
             "parent": "Nguyễn Văn Khoa",
-            "parent_phone": "0973172787"
+            "parent_phone": "0973172787",
+            "email": "duongquynhcat@school.edu.vn"
         },
         "S061": {
             "name": "Phan Thành Bảo",
             "class": "10A2",
             "parent": "Dương Hoàng Tiến",
-            "parent_phone": "0914173529"
+            "parent_phone": "0914173529",
+            "email": "phanthanhbao@school.edu.vn"
         },
         "S062": {
             "name": "Huỳnh Hữu Tùng",
             "class": "10A2",
             "parent": "Dương Khánh Cường",
-            "parent_phone": "0958074549"
+            "parent_phone": "0958074549",
+            "email": "huynhhuutung@school.edu.vn"
         },
         "S063": {
             "name": "Đỗ Văn Tùng",
             "class": "10A2",
             "parent": "Ngô Đức Khoa",
-            "parent_phone": "0972294869"
+            "parent_phone": "0972294869",
+            "email": "dovantung@school.edu.vn"
         },
         "S064": {
             "name": "Vũ Quốc Huy",
             "class": "10A2",
             "parent": "Vũ Văn Nam",
-            "parent_phone": "0923807080"
+            "parent_phone": "0923807080",
+            "email": "vuquochuy@school.edu.vn"
         },
         "S065": {
             "name": "Lý Phước Bình",
             "class": "10A2",
             "parent": "Dương Hoàng Hải",
-            "parent_phone": "0952262319"
+            "parent_phone": "0952262319",
+            "email": "lyphuocbinh@school.edu.vn"
         },
         "S066": {
             "name": "Đỗ Gia Tùng",
             "class": "10A2",
             "parent": "Phan Gia Hải",
-            "parent_phone": "0930570117"
+            "parent_phone": "0930570117",
+            "email": "dogiatung@school.edu.vn"
         },
         "S067": {
             "name": "Ngô Phương Dung",
             "class": "10A2",
             "parent": "Đặng Minh Phúc",
-            "parent_phone": "0975101278"
+            "parent_phone": "0975101278",
+            "email": "ngophuongdung@school.edu.vn"
         },
         "S068": {
             "name": "Đặng Thị Anh",
             "class": "10A2",
             "parent": "Ngô Gia Huy",
-            "parent_phone": "0958287675"
+            "parent_phone": "0958287675",
+            "email": "dangthianh@school.edu.vn"
         },
         "S069": {
             "name": "Võ Khánh Tùng",
             "class": "10A2",
             "parent": "Ngô Duy Nhân",
-            "parent_phone": "0945428454"
+            "parent_phone": "0945428454",
+            "email": "vokhanhtung@school.edu.vn"
         },
         "S070": {
             "name": "Đỗ Thị Thảo",
             "class": "10A2",
             "parent": "Dương Quốc Trung",
-            "parent_phone": "0985772399"
+            "parent_phone": "0985772399",
+            "email": "dothithao@school.edu.vn"
         },
         "S071": {
             "name": "Phạm Phước Tiến",
             "class": "10A2",
             "parent": "Đặng Khánh Nhân",
-            "parent_phone": "0961950712"
+            "parent_phone": "0961950712",
+            "email": "phamphuoctien@school.edu.vn"
         },
         "S072": {
             "name": "Lý Thành Nhân",
             "class": "10A2",
             "parent": "Vũ Văn Hùng",
-            "parent_phone": "0916159257"
+            "parent_phone": "0916159257",
+            "email": "lythanhnhan@school.edu.vn"
         },
         "S073": {
             "name": "Vũ Mai Tú",
             "class": "10A2",
             "parent": "Huỳnh Khánh Minh",
-            "parent_phone": "0998403699"
+            "parent_phone": "0998403699",
+            "email": "vumaitu@school.edu.vn"
         },
         "S074": {
             "name": "Đỗ Quốc Phong",
             "class": "10A2",
             "parent": "Đỗ Anh Cường",
-            "parent_phone": "0983477647"
+            "parent_phone": "0983477647",
+            "email": "doquocphong@school.edu.vn"
         },
         "S075": {
             "name": "Huỳnh Kim Dung",
             "class": "10A2",
             "parent": "Phan Đức Khải",
-            "parent_phone": "0947844538"
+            "parent_phone": "0947844538",
+            "email": "huynhkimdung@school.edu.vn"
         },
         "S076": {
             "name": "Vũ Tuyết Thảo",
             "class": "10A2",
             "parent": "Bùi Phước Bình",
-            "parent_phone": "0994382426"
+            "parent_phone": "0994382426",
+            "email": "vutuyetthao@school.edu.vn"
         },
         "S077": {
             "name": "Phạm Minh An",
             "class": "10A2",
             "parent": "Dương Đức Phúc",
-            "parent_phone": "0930586912"
+            "parent_phone": "0930586912",
+            "email": "phamminhan@school.edu.vn"
         },
         "S078": {
             "name": "Phan Mỹ Thảo",
             "class": "10A2",
             "parent": "Lê Minh Hùng",
-            "parent_phone": "0986921505"
+            "parent_phone": "0986921505",
+            "email": "phanmythao@school.edu.vn"
         },
         "S079": {
             "name": "Lê Duy Phúc",
             "class": "10A2",
             "parent": "Lê Minh Bảo",
-            "parent_phone": "0993989824"
+            "parent_phone": "0993989824",
+            "email": "leduyphuc@school.edu.vn"
         },
         "S080": {
             "name": "Hoàng Kim Vy",
             "class": "10A2",
             "parent": "Nguyễn Quốc Tùng",
-            "parent_phone": "0936847673"
+            "parent_phone": "0936847673",
+            "email": "hoangkimvy@school.edu.vn"
         },
         "S081": {
             "name": "Đỗ Mỹ Quỳnh",
             "class": "10A2",
             "parent": "Phan Khánh Tùng",
-            "parent_phone": "0944082695"
+            "parent_phone": "0944082695",
+            "email": "domyquynh@school.edu.vn"
         },
         "S082": {
             "name": "Đặng Duy Phúc",
             "class": "10A2",
             "parent": "Đỗ Đức Giang",
-            "parent_phone": "0947190663"
+            "parent_phone": "0947190663",
+            "email": "dangduyphuc@school.edu.vn"
         },
         "S083": {
             "name": "Vũ Thị Tú",
             "class": "10A2",
             "parent": "Nguyễn Hữu Bảo",
-            "parent_phone": "0942550352"
+            "parent_phone": "0942550352",
+            "email": "vuthitu@school.edu.vn"
         },
         "S084": {
             "name": "Đỗ Hồng Vy",
             "class": "10A2",
             "parent": "Bùi Thành Bình",
-            "parent_phone": "0978562487"
+            "parent_phone": "0978562487",
+            "email": "dohongvy@school.edu.vn"
         },
         "S085": {
             "name": "Huỳnh Kim Hương",
             "class": "10A2",
             "parent": "Lê Quốc An",
-            "parent_phone": "0985938074"
+            "parent_phone": "0985938074",
+            "email": "huynhkimhuong@school.edu.vn"
         },
         "S086": {
             "name": "Trần Xương Yến",
             "class": "10A2",
             "parent": "Lý Duy Phúc",
-            "parent_phone": "0997141899"
+            "parent_phone": "0997141899",
+            "email": "tranxuongyen@school.edu.vn"
         },
         "S087": {
             "name": "Bùi Ngọc Thảo",
             "class": "10A2",
             "parent": "Ngô Quốc Minh",
-            "parent_phone": "0994031771"
+            "parent_phone": "0994031771",
+            "email": "buingocthao@school.edu.vn"
         },
         "S088": {
             "name": "Ngô Phương Anh",
             "class": "10A2",
             "parent": "Ngô Minh Quân",
-            "parent_phone": "0960168115"
+            "parent_phone": "0960168115",
+            "email": "ngophuonganh@school.edu.vn"
         },
         "S089": {
             "name": "Hoàng Mai Như",
             "class": "10A2",
             "parent": "Ngô Hữu Minh",
-            "parent_phone": "0950378372"
+            "parent_phone": "0950378372",
+            "email": "hoangmainhu@school.edu.vn"
         },
         "S090": {
             "name": "Phạm Thành Bảo",
             "class": "10A2",
             "parent": "Phan Duy Bình",
-            "parent_phone": "0979708198"
+            "parent_phone": "0979708198",
+            "email": "phamthanhbao@school.edu.vn"
         },
         "S091": {
             "name": "Đặng Ngọc Phương",
             "class": "11B1",
             "parent": "Huỳnh Hữu Tùng",
-            "parent_phone": "0918790135"
+            "parent_phone": "0918790135",
+            "email": "dangngocphuong@school.edu.vn"
         },
         "S092": {
             "name": "Hoàng Diệu Như",
             "class": "11B1",
             "parent": "Trần Văn Cường",
-            "parent_phone": "0951705398"
+            "parent_phone": "0951705398",
+            "email": "hoangdieunhu@school.edu.vn"
         },
         "S093": {
             "name": "Ngô Đức Tuấn",
             "class": "11B1",
             "parent": "Hoàng Gia Quân",
-            "parent_phone": "0965707344"
+            "parent_phone": "0965707344",
+            "email": "ngoductuan@school.edu.vn"
         },
         "S094": {
             "name": "Lý Xương Ngọc",
             "class": "11B1",
             "parent": "Phạm Hoàng Minh",
-            "parent_phone": "0949917739"
+            "parent_phone": "0949917739",
+            "email": "lyxuongngoc@school.edu.vn"
         },
         "S095": {
             "name": "Huỳnh Quỳnh Khánh",
             "class": "11B1",
             "parent": "Đặng Duy Đạt",
-            "parent_phone": "0976503476"
+            "parent_phone": "0976503476",
+            "email": "huynhquynhkhanh@school.edu.vn"
         },
         "S096": {
             "name": "Võ Xương Linh",
             "class": "11B1",
             "parent": "Huỳnh Đức Hải",
-            "parent_phone": "0982449749"
+            "parent_phone": "0982449749",
+            "email": "voxuonglinh@school.edu.vn"
         },
         "S097": {
             "name": "Nguyễn Xương Trang",
             "class": "11B1",
             "parent": "Phan Khánh An",
-            "parent_phone": "0940126864"
+            "parent_phone": "0940126864",
+            "email": "nguyenxuongtrang@school.edu.vn"
         },
         "S098": {
             "name": "Hoàng Phương Thảo",
             "class": "11B1",
             "parent": "Lý Duy Dũng",
-            "parent_phone": "0945964952"
+            "parent_phone": "0945964952",
+            "email": "hoangphuongthao@school.edu.vn"
         },
         "S099": {
             "name": "Lý Kim Phương",
             "class": "11B1",
             "parent": "Trần Hữu Trung",
-            "parent_phone": "0943050616"
+            "parent_phone": "0943050616",
+            "email": "lykimphuong@school.edu.vn"
         },
         "S100": {
             "name": "Lê Mai Mai",
             "class": "11B1",
             "parent": "Huỳnh Văn Nam",
-            "parent_phone": "0942534093"
+            "parent_phone": "0942534093",
+            "email": "lemaimai@school.edu.vn"
         },
         "S101": {
             "name": "Đỗ Ngọc Trúc",
             "class": "11B1",
             "parent": "Đỗ Văn Long",
-            "parent_phone": "0941624596"
+            "parent_phone": "0941624596",
+            "email": "dongoctruc@school.edu.vn"
         },
         "S102": {
             "name": "Vũ Kim Mai",
             "class": "11B1",
             "parent": "Võ Đức Tùng",
-            "parent_phone": "0933328651"
+            "parent_phone": "0933328651",
+            "email": "vukimmai@school.edu.vn"
         },
         "S103": {
             "name": "Dương Diệu Khánh",
             "class": "11B1",
             "parent": "Phan Minh Đạt",
-            "parent_phone": "0995000086"
+            "parent_phone": "0995000086",
+            "email": "duongdieukhanh@school.edu.vn"
         },
         "S104": {
             "name": "Vũ Kim Cát",
             "class": "11B1",
             "parent": "Phan Văn Hùng",
-            "parent_phone": "0988709976"
+            "parent_phone": "0988709976",
+            "email": "vukimcat@school.edu.vn"
         },
         "S105": {
             "name": "Đặng Anh Minh",
             "class": "11B1",
             "parent": "Dương Duy Hải",
-            "parent_phone": "0988094163"
+            "parent_phone": "0988094163",
+            "email": "danganhminh@school.edu.vn"
         },
         "S106": {
             "name": "Phan Diệu Trúc",
             "class": "11B1",
             "parent": "Lê Đức Khoa",
-            "parent_phone": "0933255022"
+            "parent_phone": "0933255022",
+            "email": "phandieutruc@school.edu.vn"
         },
         "S107": {
             "name": "Huỳnh Tuyết Tú",
             "class": "11B1",
             "parent": "Dương Văn Hùng",
-            "parent_phone": "0946872143"
+            "parent_phone": "0946872143",
+            "email": "huynhtuyettu@school.edu.vn"
         },
         "S108": {
             "name": "Phan Đức Tiến",
             "class": "11B1",
             "parent": "Đặng Anh Long",
-            "parent_phone": "0966939438"
+            "parent_phone": "0966939438",
+            "email": "phanductien@school.edu.vn"
         },
         "S109": {
             "name": "Đỗ Phước Bảo",
             "class": "11B1",
             "parent": "Lê Duy Tiến",
-            "parent_phone": "0937886500"
+            "parent_phone": "0937886500",
+            "email": "dophuocbao@school.edu.vn"
         },
         "S110": {
             "name": "Lý Quỳnh Thảo",
             "class": "11B1",
             "parent": "Lý Gia Khải",
-            "parent_phone": "0931481557"
+            "parent_phone": "0931481557",
+            "email": "lyquynhthao@school.edu.vn"
         },
         "S111": {
             "name": "Lê Đức Sơn",
             "class": "11B1",
             "parent": "Đỗ Minh Dũng",
-            "parent_phone": "0910124904"
+            "parent_phone": "0910124904",
+            "email": "leducson@school.edu.vn"
         },
         "S112": {
             "name": "Phạm Xương Tú",
             "class": "11B1",
             "parent": "Trần Phước Tuấn",
-            "parent_phone": "0976347669"
+            "parent_phone": "0976347669",
+            "email": "phamxuongtu@school.edu.vn"
         },
         "S113": {
             "name": "Ngô Xương Hương",
             "class": "11B1",
             "parent": "Đỗ Quốc Minh",
-            "parent_phone": "0994668188"
+            "parent_phone": "0994668188",
+            "email": "ngoxuonghuong@school.edu.vn"
         },
         "S114": {
             "name": "Đặng Kim Trang",
             "class": "11B1",
             "parent": "Vũ Minh Trung",
-            "parent_phone": "0916347740"
+            "parent_phone": "0916347740",
+            "email": "dangkimtrang@school.edu.vn"
         },
         "S115": {
             "name": "Lý Quốc Bảo",
             "class": "11B1",
             "parent": "Lý Hoàng Đạt",
-            "parent_phone": "0917475817"
+            "parent_phone": "0917475817",
+            "email": "lyquocbao@school.edu.vn"
         },
         "S116": {
             "name": "Vũ Tuyết Trang",
             "class": "11B1",
             "parent": "Ngô Quốc Nhân",
-            "parent_phone": "0948899552"
+            "parent_phone": "0948899552",
+            "email": "vutuyettrang@school.edu.vn"
         },
         "S117": {
             "name": "Huỳnh Quỳnh Ngọc",
             "class": "11B1",
             "parent": "Dương Gia Trung",
-            "parent_phone": "0959969024"
+            "parent_phone": "0959969024",
+            "email": "huynhquynhngoc@school.edu.vn"
         },
         "S118": {
             "name": "Huỳnh Minh Phong",
             "class": "11B1",
             "parent": "Hoàng Minh Phúc",
-            "parent_phone": "0975776367"
+            "parent_phone": "0975776367",
+            "email": "huynhminhphong@school.edu.vn"
         },
         "S119": {
             "name": "Phạm Quốc Nhân",
             "class": "11B1",
             "parent": "Võ Gia An",
-            "parent_phone": "0996162059"
+            "parent_phone": "0996162059",
+            "email": "phamquocnhan@school.edu.vn"
         },
         "S120": {
             "name": "Huỳnh Xương Ngọc",
             "class": "11B1",
             "parent": "Võ Quốc Cường",
-            "parent_phone": "0997355899"
+            "parent_phone": "0997355899",
+            "email": "huynhxuongngoc@school.edu.vn"
         },
         "S121": {
             "name": "Phan Gia Sơn",
             "class": "11B1",
             "parent": "Bùi Hoàng Dũng",
-            "parent_phone": "0965348763"
+            "parent_phone": "0965348763",
+            "email": "phangiason@school.edu.vn"
         },
         "S122": {
             "name": "Lê Quỳnh Lan",
             "class": "11B1",
             "parent": "Phạm Gia Nam",
-            "parent_phone": "0939654066"
+            "parent_phone": "0939654066",
+            "email": "lequynhlan@school.edu.vn"
         },
         "S123": {
             "name": "Phạm Phước Dũng",
             "class": "11B1",
             "parent": "Hoàng Anh Đạt",
-            "parent_phone": "0982513786"
+            "parent_phone": "0982513786",
+            "email": "phamphuocdung@school.edu.vn"
         },
         "S124": {
             "name": "Nguyễn Kim Trúc",
             "class": "11B1",
             "parent": "Trần Thành Sơn",
-            "parent_phone": "0997107639"
+            "parent_phone": "0997107639",
+            "email": "nguyenkimtruc@school.edu.vn"
         },
         "S125": {
             "name": "Lê Ngọc Trinh",
             "class": "11B1",
             "parent": "Hoàng Gia Huy",
-            "parent_phone": "0932812486"
+            "parent_phone": "0932812486",
+            "email": "lengoctrinh@school.edu.vn"
         },
         "S126": {
             "name": "Phạm Ngọc Vy",
             "class": "11B1",
             "parent": "Đặng Minh Tiến",
-            "parent_phone": "0975000528"
+            "parent_phone": "0975000528",
+            "email": "phamngocvy@school.edu.vn"
         },
         "S127": {
             "name": "Dương Hữu Phúc",
             "class": "11B1",
             "parent": "Đặng Anh Trung",
-            "parent_phone": "0984595210"
+            "parent_phone": "0984595210",
+            "email": "duonghuuphuc@school.edu.vn"
         },
         "S128": {
             "name": "Vũ Khánh Bảo",
             "class": "11B1",
             "parent": "Nguyễn Thành Đạt",
-            "parent_phone": "0923780965"
+            "parent_phone": "0923780965",
+            "email": "vukhanhbao@school.edu.vn"
         },
         "S129": {
             "name": "Huỳnh Gia Giang",
             "class": "11B1",
             "parent": "Lý Thành Nam",
-            "parent_phone": "0936114474"
+            "parent_phone": "0936114474",
+            "email": "huynhgiagiang@school.edu.vn"
         },
         "S130": {
             "name": "Trần Xương Hương",
             "class": "11B2",
             "parent": "Huỳnh Phước Nam",
-            "parent_phone": "0923737314"
+            "parent_phone": "0923737314",
+            "email": "tranxuonghuong@school.edu.vn"
         },
         "S131": {
             "name": "Đỗ Quốc Nhân",
             "class": "11B2",
             "parent": "Dương Hữu Nhân",
-            "parent_phone": "0917928932"
+            "parent_phone": "0917928932",
+            "email": "doquocnhan@school.edu.vn"
         },
         "S132": {
             "name": "Đặng Duy Bình",
             "class": "11B2",
             "parent": "Hoàng Phước An",
-            "parent_phone": "0936724633"
+            "parent_phone": "0936724633",
+            "email": "dangduybinh@school.edu.vn"
         },
         "S133": {
             "name": "Hoàng Thành An",
             "class": "11B2",
             "parent": "Võ Quốc Phúc",
-            "parent_phone": "0957721377"
+            "parent_phone": "0957721377",
+            "email": "hoangthanhan@school.edu.vn"
         },
         "S134": {
             "name": "Lê Mỹ Hà",
             "class": "11B2",
             "parent": "Bùi Anh Đạt",
-            "parent_phone": "0915716190"
+            "parent_phone": "0915716190",
+            "email": "lemyha@school.edu.vn"
         },
         "S135": {
             "name": "Ngô Kim Hương",
             "class": "11B2",
             "parent": "Dương Hoàng Bình",
-            "parent_phone": "0937210024"
+            "parent_phone": "0937210024",
+            "email": "ngokimhuong@school.edu.vn"
         },
         "S136": {
             "name": "Lê Khánh Phong",
             "class": "11B2",
             "parent": "Phạm Anh Tiến",
-            "parent_phone": "0967506762"
+            "parent_phone": "0967506762",
+            "email": "lekhanhphong@school.edu.vn"
         },
         "S137": {
             "name": "Phan Khánh Phúc",
             "class": "11B2",
             "parent": "Lê Quốc An",
-            "parent_phone": "0996623494"
+            "parent_phone": "0996623494",
+            "email": "phankhanhphuc@school.edu.vn"
         },
         "S138": {
             "name": "Lý Ngọc Linh",
             "class": "11B2",
             "parent": "Đặng Duy Tùng",
-            "parent_phone": "0996284941"
+            "parent_phone": "0996284941",
+            "email": "lyngoclinh@school.edu.vn"
         },
         "S139": {
             "name": "Dương Xương Mai",
             "class": "11B2",
             "parent": "Nguyễn Phước Dũng",
-            "parent_phone": "0938715640"
+            "parent_phone": "0938715640",
+            "email": "duongxuongmai@school.edu.vn"
         },
         "S140": {
             "name": "Vũ Quỳnh Mai",
             "class": "11B2",
             "parent": "Phạm Thành Tiến",
-            "parent_phone": "0941816740"
+            "parent_phone": "0941816740",
+            "email": "vuquynhmai@school.edu.vn"
         },
         "S141": {
             "name": "Dương Hữu Quân",
             "class": "11B2",
             "parent": "Bùi Gia Hải",
-            "parent_phone": "0968620296"
+            "parent_phone": "0968620296",
+            "email": "duonghuuquan@school.edu.vn"
         },
         "S142": {
             "name": "Ngô Hoàng Đạt",
             "class": "11B2",
             "parent": "Ngô Minh Bảo",
-            "parent_phone": "0964517229"
+            "parent_phone": "0964517229",
+            "email": "ngohoangdat@school.edu.vn"
         },
         "S143": {
             "name": "Lê Kim Dung",
             "class": "11B2",
             "parent": "Bùi Hoàng Tiến",
-            "parent_phone": "0962055775"
+            "parent_phone": "0962055775",
+            "email": "lekimdung@school.edu.vn"
         },
         "S144": {
             "name": "Võ Thuỷ Linh",
             "class": "11B2",
             "parent": "Vũ Hữu Khải",
-            "parent_phone": "0951019832"
+            "parent_phone": "0951019832",
+            "email": "vothuylinh@school.edu.vn"
         },
         "S145": {
             "name": "Đỗ Hoàng Sơn",
             "class": "11B2",
             "parent": "Dương Phước Dũng",
-            "parent_phone": "0960288978"
+            "parent_phone": "0960288978",
+            "email": "dohoangson@school.edu.vn"
         },
         "S146": {
             "name": "Phan Thuỷ Hà",
             "class": "11B2",
             "parent": "Phạm Minh Nam",
-            "parent_phone": "0962338925"
+            "parent_phone": "0962338925",
+            "email": "phanthuyha@school.edu.vn"
         },
         "S147": {
             "name": "Bùi Xương Lan",
             "class": "11B2",
             "parent": "Dương Hữu Hải",
-            "parent_phone": "0969090494"
+            "parent_phone": "0969090494",
+            "email": "buixuonglan@school.edu.vn"
         },
         "S148": {
             "name": "Nguyễn Anh Hải",
             "class": "11B2",
             "parent": "Ngô Hoàng Dũng",
-            "parent_phone": "0997933605"
+            "parent_phone": "0997933605",
+            "email": "nguyenanhhai@school.edu.vn"
         },
         "S149": {
             "name": "Lê Xương Anh",
             "class": "11B2",
             "parent": "Dương Minh Nhân",
-            "parent_phone": "0996373469"
+            "parent_phone": "0996373469",
+            "email": "lexuonganh@school.edu.vn"
         },
         "S150": {
             "name": "Dương Phương Thảo",
             "class": "11B2",
             "parent": "Lê Minh Hải",
-            "parent_phone": "0997723989"
+            "parent_phone": "0997723989",
+            "email": "duongphuongthao@school.edu.vn"
         },
         "S151": {
             "name": "Phạm Diệu Linh",
             "class": "11B2",
             "parent": "Huỳnh Văn Tiến",
-            "parent_phone": "0996896861"
+            "parent_phone": "0996896861",
+            "email": "phamdieulinh@school.edu.vn"
         },
         "S152": {
             "name": "Vũ Xương Chi",
             "class": "11B2",
             "parent": "Huỳnh Hữu Hải",
-            "parent_phone": "0947905336"
+            "parent_phone": "0947905336",
+            "email": "vuxuongchi@school.edu.vn"
         },
         "S153": {
             "name": "Trần Duy Đạt",
             "class": "11B2",
             "parent": "Huỳnh Đức Đạt",
-            "parent_phone": "0996080908"
+            "parent_phone": "0996080908",
+            "email": "tranduydat@school.edu.vn"
         },
         "S154": {
             "name": "Phan Mai Vy",
             "class": "11B2",
             "parent": "Ngô Hoàng Dũng",
-            "parent_phone": "0963124888"
+            "parent_phone": "0963124888",
+            "email": "phanmaivy@school.edu.vn"
         },
         "S155": {
             "name": "Phạm Quỳnh Anh",
             "class": "11B2",
             "parent": "Đỗ Anh Dũng",
-            "parent_phone": "0936785320"
+            "parent_phone": "0936785320",
+            "email": "phamquynhanh@school.edu.vn"
         },
         "S156": {
             "name": "Lê Ngọc Chi",
             "class": "11B2",
             "parent": "Huỳnh Anh Hải",
-            "parent_phone": "0930330083"
+            "parent_phone": "0930330083",
+            "email": "lengocchi@school.edu.vn"
         },
         "S157": {
             "name": "Trần Minh Bảo",
             "class": "11B2",
             "parent": "Phạm Anh Long",
-            "parent_phone": "0943686507"
+            "parent_phone": "0943686507",
+            "email": "tranminhbao@school.edu.vn"
         },
         "S158": {
             "name": "Lý Đức Huy",
             "class": "11B2",
             "parent": "Lý Hoàng Phúc",
-            "parent_phone": "0979734906"
+            "parent_phone": "0979734906",
+            "email": "lyduchuy@school.edu.vn"
         },
         "S159": {
             "name": "Trần Gia Cường",
             "class": "11B2",
             "parent": "Đỗ Duy Sơn",
-            "parent_phone": "0996581018"
+            "parent_phone": "0996581018",
+            "email": "trangiacuong@school.edu.vn"
         },
         "S160": {
             "name": "Ngô Kim Hương",
             "class": "11B2",
             "parent": "Phan Khánh Tuấn",
-            "parent_phone": "0952036083"
+            "parent_phone": "0952036083",
+            "email": "ngokimhuong@school.edu.vn"
         },
         "S161": {
             "name": "Bùi Mỹ Như",
             "class": "11B2",
             "parent": "Đỗ Hoàng Quân",
-            "parent_phone": "0941500887"
+            "parent_phone": "0941500887",
+            "email": "buimynhu@school.edu.vn"
         },
         "S162": {
             "name": "Trần Hoàng Tùng",
             "class": "11B2",
             "parent": "Huỳnh Quốc Tuấn",
-            "parent_phone": "0941201666"
+            "parent_phone": "0941201666",
+            "email": "tranhoangtung@school.edu.vn"
         },
         "S163": {
             "name": "Hoàng Thuỷ Dung",
             "class": "11B2",
             "parent": "Phạm Văn Phúc",
-            "parent_phone": "0914129148"
+            "parent_phone": "0914129148",
+            "email": "hoangthuydung@school.edu.vn"
         },
         "S164": {
             "name": "Trần Tuyết Linh",
             "class": "11B2",
             "parent": "Lý Minh Nam",
-            "parent_phone": "0928620806"
+            "parent_phone": "0928620806",
+            "email": "trantuyetlinh@school.edu.vn"
         },
         "S165": {
             "name": "Phạm Thị Oanh",
             "class": "11B2",
             "parent": "Đặng Thành Minh",
-            "parent_phone": "0915471503"
+            "parent_phone": "0915471503",
+            "email": "phamthioanh@school.edu.vn"
         },
         "S166": {
             "name": "Bùi Đức Tuấn",
             "class": "11B2",
             "parent": "Lê Quốc An",
-            "parent_phone": "0981048554"
+            "parent_phone": "0981048554",
+            "email": "buiductuan@school.edu.vn"
         },
         "S167": {
             "name": "Võ Quỳnh Vy",
             "class": "11B2",
             "parent": "Lý Quốc Sơn",
-            "parent_phone": "0926792031"
+            "parent_phone": "0926792031",
+            "email": "voquynhvy@school.edu.vn"
         },
         "S168": {
             "name": "Lý Văn Quân",
             "class": "11B2",
             "parent": "Ngô Anh Minh",
-            "parent_phone": "0915760889"
+            "parent_phone": "0915760889",
+            "email": "lyvanquan@school.edu.vn"
         },
         "S169": {
             "name": "Võ Gia Hùng",
             "class": "11B2",
             "parent": "Lý Hoàng Khải",
-            "parent_phone": "0992295751"
+            "parent_phone": "0992295751",
+            "email": "vogiahung@school.edu.vn"
         },
         "S170": {
             "name": "Huỳnh Mỹ Yến",
             "class": "11B2",
             "parent": "Huỳnh Duy Hùng",
-            "parent_phone": "0927068105"
+            "parent_phone": "0927068105",
+            "email": "huynhmyyen@school.edu.vn"
         },
         "S171": {
             "name": "Lê Hữu Phúc",
             "class": "11B2",
             "parent": "Bùi Hoàng Phúc",
-            "parent_phone": "0981333226"
+            "parent_phone": "0981333226",
+            "email": "lehuuphuc@school.edu.vn"
         },
         "S172": {
             "name": "Đặng Hoàng Cường",
             "class": "11B2",
             "parent": "Đặng Gia Tiến",
-            "parent_phone": "0918714074"
+            "parent_phone": "0918714074",
+            "email": "danghoangcuong@school.edu.vn"
         },
         "S173": {
             "name": "Huỳnh Hữu Phúc",
             "class": "12C1",
             "parent": "Võ Thành Minh",
-            "parent_phone": "0944854445"
+            "parent_phone": "0944854445",
+            "email": "huynhhuuphuc@school.edu.vn"
         },
         "S174": {
             "name": "Đặng Mai Hương",
             "class": "12C1",
             "parent": "Võ Văn Tùng",
-            "parent_phone": "0950216090"
+            "parent_phone": "0950216090",
+            "email": "dangmaihuong@school.edu.vn"
         },
         "S175": {
             "name": "Dương Hữu Long",
             "class": "12C1",
             "parent": "Lý Hoàng Tuấn",
-            "parent_phone": "0994368674"
+            "parent_phone": "0994368674",
+            "email": "duonghuulong@school.edu.vn"
         },
         "S176": {
             "name": "Dương Minh Sơn",
             "class": "12C1",
             "parent": "Huỳnh Duy Hải",
-            "parent_phone": "0967469688"
+            "parent_phone": "0967469688",
+            "email": "duongminhson@school.edu.vn"
         },
         "S177": {
             "name": "Hoàng Hữu Tùng",
             "class": "12C1",
             "parent": "Vũ Phước Khải",
-            "parent_phone": "0939858607"
+            "parent_phone": "0939858607",
+            "email": "hoanghuutung@school.edu.vn"
         },
         "S178": {
             "name": "Vũ Khánh Long",
             "class": "12C1",
             "parent": "Nguyễn Quốc Khải",
-            "parent_phone": "0965427649"
+            "parent_phone": "0965427649",
+            "email": "vukhanhlong@school.edu.vn"
         },
         "S179": {
             "name": "Võ Khánh Huy",
             "class": "12C1",
             "parent": "Lê Khánh Hải",
-            "parent_phone": "0996099472"
+            "parent_phone": "0996099472",
+            "email": "vokhanhhuy@school.edu.vn"
         },
         "S180": {
             "name": "Trần Văn Tùng",
             "class": "12C1",
             "parent": "Phạm Đức Hùng",
-            "parent_phone": "0927936762"
+            "parent_phone": "0927936762",
+            "email": "tranvantung@school.edu.vn"
         },
         "S181": {
             "name": "Đỗ Thành Tuấn",
             "class": "12C1",
             "parent": "Hoàng Thành Bảo",
-            "parent_phone": "0995933546"
+            "parent_phone": "0995933546",
+            "email": "dothanhtuan@school.edu.vn"
         },
         "S182": {
             "name": "Phan Quỳnh Khánh",
             "class": "12C1",
             "parent": "Huỳnh Hữu Giang",
-            "parent_phone": "0978978229"
+            "parent_phone": "0978978229",
+            "email": "phanquynhkhanh@school.edu.vn"
         },
         "S183": {
             "name": "Trần Thị Vy",
             "class": "12C1",
             "parent": "Trần Khánh Phúc",
-            "parent_phone": "0923823715"
+            "parent_phone": "0923823715",
+            "email": "tranthivy@school.edu.vn"
         },
         "S184": {
             "name": "Lê Phương Khánh",
             "class": "12C1",
             "parent": "Huỳnh Đức Tùng",
-            "parent_phone": "0952490891"
+            "parent_phone": "0952490891",
+            "email": "lephuongkhanh@school.edu.vn"
         },
         "S185": {
             "name": "Phạm Hoàng Khoa",
             "class": "12C1",
             "parent": "Phan Duy Đạt",
-            "parent_phone": "0932633297"
+            "parent_phone": "0932633297",
+            "email": "phamhoangkhoa@school.edu.vn"
         },
         "S186": {
             "name": "Nguyễn Hồng Lan",
             "class": "12C1",
             "parent": "Đặng Đức Đạt",
-            "parent_phone": "0989376225"
+            "parent_phone": "0989376225",
+            "email": "nguyenhonglan@school.edu.vn"
         },
         "S187": {
             "name": "Đặng Thuỷ Vy",
             "class": "12C1",
             "parent": "Dương Gia Hải",
-            "parent_phone": "0990083591"
+            "parent_phone": "0990083591",
+            "email": "dangthuyvy@school.edu.vn"
         },
         "S188": {
             "name": "Phạm Quốc Hùng",
             "class": "12C1",
             "parent": "Vũ Văn Dũng",
-            "parent_phone": "0948500501"
+            "parent_phone": "0948500501",
+            "email": "phamquochung@school.edu.vn"
         },
         "S189": {
             "name": "Phạm Ngọc Vân",
             "class": "12C1",
             "parent": "Hoàng Hữu Tùng",
-            "parent_phone": "0993685569"
+            "parent_phone": "0993685569",
+            "email": "phamngocvan@school.edu.vn"
         },
         "S190": {
             "name": "Huỳnh Hoàng Huy",
             "class": "12C1",
             "parent": "Võ Đức Tùng",
-            "parent_phone": "0987785130"
+            "parent_phone": "0987785130",
+            "email": "huynhhoanghuy@school.edu.vn"
         },
         "S191": {
             "name": "Huỳnh Hồng Cát",
             "class": "12C1",
             "parent": "Lý Khánh Hải",
-            "parent_phone": "0932260058"
+            "parent_phone": "0932260058",
+            "email": "huynhhongcat@school.edu.vn"
         },
         "S192": {
             "name": "Võ Diệu Thảo",
             "class": "12C1",
             "parent": "Đỗ Đức Khoa",
-            "parent_phone": "0952980276"
+            "parent_phone": "0952980276",
+            "email": "vodieuthao@school.edu.vn"
         },
         "S193": {
             "name": "Vũ Tuyết Trang",
             "class": "12C1",
             "parent": "Huỳnh Gia Quân",
-            "parent_phone": "0921653673"
+            "parent_phone": "0921653673",
+            "email": "vutuyettrang@school.edu.vn"
         },
         "S194": {
             "name": "Lý Xương Dung",
             "class": "12C1",
             "parent": "Đỗ Đức Hùng",
-            "parent_phone": "0938384957"
+            "parent_phone": "0938384957",
+            "email": "lyxuongdung@school.edu.vn"
         },
         "S195": {
             "name": "Phạm Quỳnh Chi",
             "class": "12C1",
             "parent": "Nguyễn Quốc Tuấn",
-            "parent_phone": "0994489555"
+            "parent_phone": "0994489555",
+            "email": "phamquynhchi@school.edu.vn"
         },
         "S196": {
             "name": "Dương Đức Hải",
             "class": "12C1",
             "parent": "Trần Hoàng Huy",
-            "parent_phone": "0991699567"
+            "parent_phone": "0991699567",
+            "email": "duongduchai@school.edu.vn"
         },
         "S197": {
             "name": "Hoàng Diệu Quỳnh",
             "class": "12C1",
             "parent": "Lê Anh Hải",
-            "parent_phone": "0932463951"
+            "parent_phone": "0932463951",
+            "email": "hoangdieuquynh@school.edu.vn"
         },
         "S198": {
             "name": "Vũ Thị Anh",
             "class": "12C1",
             "parent": "Phạm Khánh Huy",
-            "parent_phone": "0957995248"
+            "parent_phone": "0957995248",
+            "email": "vuthianh@school.edu.vn"
         },
         "S199": {
             "name": "Đặng Gia Phong",
             "class": "12C1",
             "parent": "Lý Hoàng An",
-            "parent_phone": "0958442439"
+            "parent_phone": "0958442439",
+            "email": "danggiaphong@school.edu.vn"
         },
         "S200": {
             "name": "Đỗ Anh Tùng",
             "class": "12C1",
             "parent": "Võ Thành Khải",
-            "parent_phone": "0974500246"
+            "parent_phone": "0974500246",
+            "email": "doanhtung@school.edu.vn"
         },
         "S201": {
             "name": "Hoàng Mỹ Phương",
             "class": "12C1",
             "parent": "Đỗ Đức Đạt",
-            "parent_phone": "0924337159"
+            "parent_phone": "0924337159",
+            "email": "hoangmyphuong@school.edu.vn"
         },
         "S202": {
             "name": "Bùi Hoàng Long",
             "class": "12C1",
             "parent": "Nguyễn Phước Khoa",
-            "parent_phone": "0987932443"
+            "parent_phone": "0987932443",
+            "email": "buihoanglong@school.edu.vn"
         },
         "S203": {
             "name": "Nguyễn Đức Tùng",
             "class": "12C1",
             "parent": "Nguyễn Hoàng Bảo",
-            "parent_phone": "0950754197"
+            "parent_phone": "0950754197",
+            "email": "nguyenductung@school.edu.vn"
         },
         "S204": {
             "name": "Vũ Anh Nam",
             "class": "12C1",
             "parent": "Lê Gia Tiến",
-            "parent_phone": "0967493722"
+            "parent_phone": "0967493722",
+            "email": "vuanhnam@school.edu.vn"
         },
         "S205": {
             "name": "Ngô Hữu Quân",
             "class": "12C1",
             "parent": "Phạm Gia Tùng",
-            "parent_phone": "0988237669"
+            "parent_phone": "0988237669",
+            "email": "ngohuuquan@school.edu.vn"
         },
         "S206": {
             "name": "Nguyễn Tuyết Oanh",
             "class": "12C1",
             "parent": "Vũ Minh Tiến",
-            "parent_phone": "0930926753"
+            "parent_phone": "0930926753",
+            "email": "nguyentuyetoanh@school.edu.vn"
         },
         "S207": {
             "name": "Lý Anh Hải",
             "class": "12C1",
             "parent": "Ngô Thành Long",
-            "parent_phone": "0991145649"
+            "parent_phone": "0991145649",
+            "email": "lyanhhai@school.edu.vn"
         },
         "S208": {
             "name": "Phạm Quốc Đạt",
             "class": "12C1",
             "parent": "Đỗ Hữu Tùng",
-            "parent_phone": "0977915935"
+            "parent_phone": "0977915935",
+            "email": "phamquocdat@school.edu.vn"
         },
         "S209": {
             "name": "Hoàng Hoàng Tùng",
             "class": "12C1",
             "parent": "Đỗ Gia Cường",
-            "parent_phone": "0947466508"
+            "parent_phone": "0947466508",
+            "email": "hoanghoangtung@school.edu.vn"
         },
         "S210": {
             "name": "Võ Phước Minh",
             "class": "12C1",
             "parent": "Vũ Đức Tuấn",
-            "parent_phone": "0961450454"
+            "parent_phone": "0961450454",
+            "email": "vophuocminh@school.edu.vn"
         },
         "S211": {
             "name": "Bùi Mai Hương",
             "class": "12C1",
             "parent": "Lý Văn Phúc",
-            "parent_phone": "0969609426"
+            "parent_phone": "0969609426",
+            "email": "buimaihuong@school.edu.vn"
         },
         "S212": {
             "name": "Đặng Hồng Lan",
             "class": "12C1",
             "parent": "Huỳnh Phước Tuấn",
-            "parent_phone": "0926541528"
+            "parent_phone": "0926541528",
+            "email": "danghonglan@school.edu.vn"
         }
     },
     "grades": {
