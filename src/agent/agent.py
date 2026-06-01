@@ -6,7 +6,7 @@ from typing import List, Dict, Any, Optional
 from src.core.llm_provider import LLMProvider
 from src.telemetry.logger import logger
 from src.telemetry.metrics import tracker
-from src.agent.tools import TOOLS, get_tool_specs
+from src.agent.academic_tools import ACADEMIC_TOOLS as TOOLS, get_tool_specs
 
 class ReActAgent:
     """
@@ -53,6 +53,17 @@ class ReActAgent:
 - Observation: (you will receive the tool result)
 - ... (repeat as needed)
 - Final Answer: (your final response to the user)
+
+## SMART RULES:
+
+1. **Verification & Accuracy Rule**:
+   - You MUST verify the parent's phone number before sharing grade information.
+   - If a search or verification tool returns `"multiple_grades": true` (meaning the student has grade data in grade 10, 11, and 12) and the user has NOT specified which grade level they want in their query, you MUST ask the user: "Tìm thấy điểm của học sinh X ở các lớp: lớp 10, lớp 11, lớp 12. Bạn muốn tìm điểm của học sinh X lớp mấy?" in your Final Answer. Do not guess the grade.
+   - If the user specifies the grade level (e.g. "lớp 11"), use `get_grades_by_grade_level` or pass `grade_level` to `search_student_by_name_and_phone` or `verify_parent_phone` to fetch the EXACT row.
+
+2. **Premium Natural Language Output Rule**:
+   - Your final answer MUST present the student's grades in a polite, detailed, and beautifully structured Vietnamese natural language format.
+   - Do NOT output raw JSON or basic bullet points. Format the output with bold headings, detailing each subject's factor 1, factor 2, factor 3 scores and GPA, along with the overall GPA, conduct grade, behavior score, and the teacher's remarks in a warm parent-friendly tone.
 
 IMPORTANT:
 - Call only ONE tool per step
@@ -211,36 +222,18 @@ IMPORTANT:
             kwargs = self._parse_tool_args(args_str)
             
             # Call tool
-            result = tool_fn(**kwargs)
+            result_str = tool_fn(**kwargs)
+            result = json.loads(result_str)
             
             # Log tool execution
             logger.log_event("TOOL_EXECUTION", {
                 "tool": tool_name,
                 "args": kwargs,
-                "result_status": result.get("status", "unknown"),
-                "found": result.get("found", False)
+                "result_status": result.get("status", "unknown")
             })
             
-            # Return formatted observation
-            if result.get("status") == "success":
-                if result.get("found"):
-                    # Format success response
-                    if tool_name == "search_student":
-                        matches_str = "\n".join([
-                            f"  - {m['name']} (ID: {m['student_id']}, Points: {m['points']})"
-                            for m in result.get("matches", [])
-                        ])
-                        return f"Found {result.get('count')} student(s):\n{matches_str}"
-                    elif tool_name == "get_student_points":
-                        student = result.get("student", {})
-                        if student.get("points") is not None:
-                            return f"{student['name']} (ID: {student['student_id']}) has {student['points']} points in {student['subject']}"
-                        else:
-                            return f"{student['name']} (ID: {student['student_id']}) has no recorded points yet"
-                else:
-                    return result.get("message", "No results found")
-            else:
-                return f"Tool error: {result.get('message', 'Unknown error')}"
+            # Return formatted observation - since tools return JSON, just return the string
+            return result_str
         
         except Exception as e:
             error_msg = f"Exception executing tool '{tool_name}': {str(e)}"

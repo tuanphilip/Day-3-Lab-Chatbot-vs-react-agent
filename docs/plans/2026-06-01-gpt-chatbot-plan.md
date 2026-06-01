@@ -1,4 +1,38 @@
 
+# GPT-Style Chatbot Implementation Plan
+
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+
+**Goal:** Build a GPT-style dark theme chat interface with collapsible right sidebar logs, and implement rules from RULES.md.
+
+**Architecture:** 
+- Frontend: GPT-inspired dark theme, chat interface in `server/static/index.html`
+- Backend: Update `/api/chat` endpoint with session state and rule enforcement
+- Database: Add parent phone verification functions
+
+**Tech Stack:** FastAPI, Vanilla JS, CSS3
+
+---
+
+## File Structure
+| File | Responsibility |
+|------|----------------|
+| `server/static/index.html` | New GPT-style UI with chat, logs, input |
+| `src/data/database.py` | Add `get_student_by_parent_phone` function |
+| `src/agent/academic_tools.py` | Add `verify_parent_phone` tool |
+| `server/api.py` | Add session handling, rule enforcement, session ID |
+| `src/agent/agent.py` | (Minor changes if needed) |
+
+---
+
+## Task 1: Rewrite `server/static/index.html` with GPT-style UI
+
+**Files:**
+- Modify: `server/static/index.html` (complete rewrite)
+
+- [ ] **Step 1: Replace current HTML with GPT-style structure**
+
+```html
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -242,7 +276,6 @@
             color: #888;
             font-family: monospace;
             font-size: 13px;
-            white-space: pre-wrap;
         }
     </style>
 </head>
@@ -252,20 +285,10 @@
         <!-- Chat Container -->
         <div class="chat-container">
             <!-- Header -->
-        <div class="chat-header">
-            <h1>🧠 Trợ lý Học tập</h1>
-            <div style="display: flex; align-items: center; gap: 12px;">
-                <select id="model-selector" style="background: #333; color: white; border: 1px solid #444; border-radius: 6px; padding: 6px 12px; font-size: 14px;">
-                    <option value="mock">Mock ReAct</option>
-                    <option value="openai">OpenAI</option>
-                    <option value="google">Google Gemini</option>
-                    <option value="local">Local Phi-3</option>
-                    <option value="deepseek">DeepSeek</option>
-                    <option value="qwen">Local Qwen</option>
-                </select>
+            <div class="chat-header">
+                <h1>🧠 Trợ lý Học tập</h1>
                 <span class="rules-reminder">Chỉ trả lời về điểm số & học tập</span>
             </div>
-        </div>
             <!-- Messages -->
             <div class="messages-container" id="messagesContainer">
                 <div class="message assistant">
@@ -325,7 +348,7 @@
         function addLogs(steps) {
             const logsContent = document.getElementById('logsContent');
             logsContent.innerHTML = '';
-            steps.forEach((step, i) => {
+            if (steps.forEach((step, i) => {
                 const logDiv = document.createElement('div');
                 logDiv.className = 'log-item';
                 logDiv.innerHTML = `
@@ -353,8 +376,6 @@
             isLoading = true;
             const sendBtn = document.getElementById('sendBtn');
             sendBtn.disabled = true;
-            
-            const provider = document.getElementById('model-selector').value;
 
             try {
                 const response = await fetch('/api/chat', {
@@ -364,7 +385,7 @@
                     },
                     body: JSON.stringify({
                         query: message,
-                        provider: provider,
+                        provider: 'mock',
                         max_steps: 5,
                         session_id: sessionId
                     }),
@@ -413,3 +434,159 @@
     </script>
 </body>
 </html>
+```
+
+- [ ] **Step 2: Save and test UI (open in browser to check layout)
+
+---
+
+## Task 2: Add `get_student_by_parent_phone` to `src/data/database.py`
+
+**Files:**
+- Modify: `src/data/database.py`
+
+- [ ] **Step 1: Add new function to `src/data/database.py`
+
+```python
+def get_student_by_parent_phone(parent_phone: str, academic_year: Optional[str] = None) -> Optional[Dict[str, Any]]:
+    """
+    Get student by parent phone number, returns latest year if academic_year not specified
+    """
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    query = "SELECT * FROM students WHERE parent_phone = ?
+    params = [parent_phone]
+    if academic_year:
+        query += " AND academic_year = ?"
+        params.append(academic_year)
+    else:
+        # Order by academic_year DESC to get latest year
+        query += " ORDER BY academic_year DESC"
+    cursor.execute(query, params)
+    row = cursor.fetchone()
+    conn.close()
+    
+    if not row:
+        return None
+    return dict(row)
+```
+
+- [ ] **Step 2: Verify new function is accessible in `src/data/__init__.py`
+
+```python
+__all__ = [
+    # ... existing ...,
+    "get_student_by_parent_phone"
+]
+```
+
+---
+
+## Task 3: Add `verify_parent_phone` to `src/agent/academic_tools.py`
+
+**Files:**
+- Modify: `src/agent/academic_tools.py`
+
+- [ ] **Step 1: Add new tool function
+
+```python
+def verify_parent_phone(phone_number: str) -> str:
+    """
+    Verify parent phone number and return student info if valid
+    """
+    from src.data.database import get_student_by_parent_phone
+    
+    student = get_student_by_parent_phone(phone_number)
+    if not student:
+        return json.dumps({
+            "status": "error",
+            "tool": "verify_parent_phone",
+            "message": "Không tìm thấy học sinh với số điện thoại này"
+        }, ensure_ascii=False, indent=2)
+    return json.dumps({
+        "status": "success",
+        "tool": "verify_parent_phone",
+        "student_id": student["student_id"],
+        "name": student["name"],
+        "class": student["class"],
+        "academic_year": student["academic_year"]
+    }, ensure_ascii=False, indent=2)
+```
+
+- [ ] **Step 2: Add tool to ACADEMIC_TOOLS dict
+
+```python
+ACADEMIC_TOOLS = {
+    # ... existing tools,
+    "verify_parent_phone": verify_parent_phone
+}
+```
+
+---
+
+## Task 4: Update `server/api.py` for session state and rules
+
+**Files:**
+- Modify: `server/api.py`
+
+- [ ] **Step 1: Add session state management
+```python
+# In-memory session store (temporary)
+sessions = {}
+```
+
+- [ ] **Step 2: Update QueryRequest model
+```python
+class QueryRequest(BaseModel):
+    query: str
+    provider: Optional[str] = None
+    max_steps: Optional[int] = 5
+    session_id: Optional[str] = None
+```
+
+- [ ] **Step 3: Update QueryResponse model
+```python
+class QueryResponse(BaseModel):
+    query: str
+    response: str
+    provider: str
+    model: str
+    steps: List[Dict[str, Any]]
+    latency_ms: int
+    usage: Dict[str, int]
+    session_id: str
+```
+
+- [ ] **Step 4: Update MockReActProvider to follow rules
+- Update generate() to handle:
+  - Out-of-scope questions
+  - Phone verification flow
+
+- [ ] **Step 5: Update /api/chat endpoint to handle sessions
+```python
+@app.post("/api/chat", response_model=QueryResponse)
+async def chat_endpoint(payload: QueryRequest):
+    # ... existing ...
+    session_id = payload.session_id or str(uuid.uuid4())
+    if session_id not in sessions:
+        sessions[session_id] = {
+            "verified_student_id": None,
+            "verified_parent_phone": None,
+            "conversation_history": []
+        }
+    # ... use session state in MockReActProvider
+```
+
+---
+
+## Task 5: Test everything end-to-end
+
+- [ ] Run `python -m uvicorn server.api:app --reload
+- [ ] Open browser to http://127.0.0.1:8000
+- [ ] Test flow:
+  1. Ask "Điểm của học sinh S002"
+  2. Should ask for phone number
+  3. Enter phone number from DB (e.g., "0936538687")
+  4. Should show grades
+
